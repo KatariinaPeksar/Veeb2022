@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Registreeru kasutajaks</h1> 
+    <p>Konto loomiseks täida allolevad väljad</p>
+    <img src="Sign up.png" alt="sign up" style="width:90px;height:100px;">
+ <form action="/action_page.php">
+ <div class="container">
+  
+    <label for="username"><b>Kasutaja</b></label>
+    <input type="text" placeholder="Kasutaja" name="username" required><br>
+    
+    <label for="name"><b>Nimi</b></label>
+    <input type="text" placeholder="Nimi" name="name" required><br>
+    
+     <label for="country"><b>Riik</b></label>
+  <select name="country" id="country">
+    <option value="eesti">Eesti</option>
+    <option value="läti">Läti</option>
+    <option value="leedu">Leedu</option>
+    <option value="muu">Muu</option>
+  </select><br>
+
+    <label for="psw"><b>Salasõna</b></label>
+    <input type="password" placeholder="Salasõna" name="psw" required><br>
+
+    <label for="psw-repeat"><b>Salasõna teist korda</b></label>
+    <input type="password" placeholder="Salasõna teist korda" name="psw-repeat" required><br>
+    
+    <input type="checkbox" name="checkbox" required>
+  <label for="vehicle1"> Olen nõus enda infot saatma</label><br>
+    
+    <input type="submit" value="Submit">
+</div>
+</form>
+
+</body>
+</html>
