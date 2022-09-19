@@ -8,7 +8,7 @@
 <body>
   <h1>Registreeru kasutajaks</h1> 
     <p>Konto loomiseks täida allolevad väljad</p>
-    <img src="Sign up.png" alt="sign up" style="width:90px;height:100px;">
+    <img src="https://static.thenounproject.com/png/5506-200.png" alt="sign up" style="width:90px;height:100px;">
  <form action="/action_page.php">
  <div class="container">
   
