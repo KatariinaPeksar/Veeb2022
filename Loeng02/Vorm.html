@@ -9,7 +9,7 @@
   <h1>Registreeru kasutajaks</h1> 
     <p>Konto loomiseks täida allolevad väljad</p>
     <img src="Sign up.png" alt="sign up" style="width:90px;height:100px;">
- <form action="/action_page.php">
+ <form action>
  <div class="container">
   
     <label for="username"><b>Kasutaja</b></label>
@@ -20,6 +20,7 @@
     
      <label for="country"><b>Riik</b></label>
   <select name="country" id="country">
+    <option value=""></option>
     <option value="eesti">Eesti</option>
     <option value="läti">Läti</option>
     <option value="leedu">Leedu</option>
@@ -32,8 +33,8 @@
     <label for="psw-repeat"><b>Salasõna teist korda</b></label>
     <input type="password" placeholder="Salasõna teist korda" name="psw-repeat" id="psw-repeat" required><br>
     
-    <input type="checkbox" name="checkbox" required>
-  <label for="vehicle1"> Olen nõus enda infot saatma</label><br>
+    <input type="checkbox" name="checkbox" required id="checkbox">
+  <label for="checkbox"> Olen nõus enda infot saatma</label><br>
     
     <input type="submit" value="Submit">
 </div>
