@@ -8,15 +8,15 @@
 <body>
   <h1>Registreeru kasutajaks</h1> 
     <p>Konto loomiseks täida allolevad väljad</p>
-    <img src="https://static.thenounproject.com/png/5506-200.png" alt="sign up" style="width:90px;height:100px;">
+    <img src="Sign up.png" alt="sign up" style="width:90px;height:100px;">
  <form action="/action_page.php">
  <div class="container">
   
     <label for="username"><b>Kasutaja</b></label>
-    <input type="text" placeholder="Kasutaja" name="username" required><br>
+    <input type="text" placeholder="Kasutaja" name="username" id="username" required><br>
     
     <label for="name"><b>Nimi</b></label>
-    <input type="text" placeholder="Nimi" name="name" required><br>
+    <input type="text" placeholder="Nimi" name="name" id="name" required><br>
     
      <label for="country"><b>Riik</b></label>
   <select name="country" id="country">
@@ -27,10 +27,10 @@
   </select><br>
 
     <label for="psw"><b>Salasõna</b></label>
-    <input type="password" placeholder="Salasõna" name="psw" required><br>
+    <input type="password" placeholder="Salasõna" name="psw" id="psw" required><br>
 
     <label for="psw-repeat"><b>Salasõna teist korda</b></label>
-    <input type="password" placeholder="Salasõna teist korda" name="psw-repeat" required><br>
+    <input type="password" placeholder="Salasõna teist korda" name="psw-repeat" id="psw-repeat" required><br>
     
     <input type="checkbox" name="checkbox" required>
   <label for="vehicle1"> Olen nõus enda infot saatma</label><br>
