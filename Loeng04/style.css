@@ -27,20 +27,47 @@ body>nav {
 
 main {
     background-color: beige;
-    padding: 20px;
 }
 
-main>a>p {
-    width: 60vw;
+.sisu {
+    padding: 15px;
     display: flex;
-    align-items: center;
+    gap: 20px;
 }
 
-main>img {
-        width: 300px;
-        height: 300px;
-        padding-left: 5px;
-}  
+.sisu2 {
+    padding: 15px;
+    display: flex;
+    gap: 820px;
+}
+
+.sisu3 {
+    padding: 15px;
+    display: flex;
+    gap: 812px;
+}
+    
+.reklaam {
+   border-style: solid;
+   width: 200px;
+   align-self: center;
+   background-color: rgb(130, 231, 220);
+   font-size: 1.4rem;
+   display: grid;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-bottom: 1.2rem;
+   border-width: 20px;
+   border-image: repeating-radial-gradient(
+           circle at 10px,
+           turquoise,
+           pink 2px,
+           greenyellow 4px,
+           pink 2px
+       )
+       1;
+    text-align: center;
+}
 
 footer {
     padding-top: 5px;
@@ -49,8 +76,24 @@ footer {
 }
 
 footer>nav {    
-    display: flex;
     justify-content: center;
     gap: 10px;
     padding-bottom: 10px;
-}
+    display: flex;
+  }
+
+  .button1 {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: turquoise;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
