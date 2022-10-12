@@ -6,3 +6,5 @@
 - [Loeng 5] (https://katariinapeksar.github.io/Veeb2022/Loeng05/)
 - [Loeng 6] (https://katariinapeksar.github.io/Veeb2022/Loeng06/)
 - [Matkaklubi] (https://katariinapeksar.github.io/Veeb2022/Matkaklubi/)
+- [Loeng 7] (https://katariinapeksar.github.io/Veeb2022/Loeng07/)
+- [Loeng 8] (https://katariinapeksar.github.io/Veeb2022/Loeng08/)
