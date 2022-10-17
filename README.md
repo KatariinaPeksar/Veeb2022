@@ -9,3 +9,4 @@
 - [Loeng 7] (https://katariinapeksar.github.io/Veeb2022/Loeng07/)
 - [Loeng 8] (https://katariinapeksar.github.io/Veeb2022/Loeng08/)
 - [Loeng 9] (https://katariinapeksar.github.io/Veeb2022/Loeng09/)
+- [Loeng 10] (https://katariinapeksar.github.io/Veeb2022/Loeng10/)
